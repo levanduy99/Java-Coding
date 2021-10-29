@@ -20,3 +20,7 @@ On each day, you may decide to buy and/or sell the stock. You can only hold at m
 
 Find and return the maximum profit you can achieve.
 
+3. Rotate Array
+
+Given an array, rorate the array to the right by `k` steps, where `k` is non-negative.
+
