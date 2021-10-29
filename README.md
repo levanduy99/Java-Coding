@@ -12,3 +12,11 @@ Return `k` after placing the final result in the first `k` slots of `nums`.
 
 Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra menory.
 
+2. Best Time to Buy and Sell Stock II
+
+You are given an integer array `price` where `price[i]` is the price of a given stock on the `i_th` day.
+
+On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+
+Find and return the maximum profit you can achieve.
+
