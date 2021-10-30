@@ -27,3 +27,10 @@ Given an array, rorate the array to the right by `k` steps, where `k` is non-neg
 4. Contains Duplicate
 
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
+
+5. Single Number 
+
+Given a **non-empty** array of integers `nums`, every element appears *twice* except for one. Find that single one.
+
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
