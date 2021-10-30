@@ -24,3 +24,6 @@ Find and return the maximum profit you can achieve.
 
 Given an array, rorate the array to the right by `k` steps, where `k` is non-negative.
 
+4. Contains Duplicate
+
+Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
