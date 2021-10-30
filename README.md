@@ -37,3 +37,16 @@ You must implement a solution with a linear runtime complexity and use only cons
 5. Intersection of Two Arrays II
 
 Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
+
+## Math
+1. Fizz Buzz
+
+Given an integer `n`, return *a string array* `answer` (**1-indexed**) where:
+- `answer[i] == "FizzBuzz"` if `i` is divisible by `3` and `5`.
+- `answer[i] == "Fizz"` if `i` is divisible by `3`.
+- `answer[i] == "Buzz"` if `i` is divisible by `5`.
+- `answer[i] == i` if non of the above conditions are true.
+
+# [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
+1. Merge Sort
+
