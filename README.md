@@ -51,6 +51,12 @@ Given an integer `n`, return *a string array* `answer` (**1-indexed**) where:
 
 Given an integer `n`, return *the number of prime number that are strictly less* than `n`. 
 
+3. Power of Three
+
+Given an integer `n`, return `true` if it is a power of three. Otherwise, return `false`.
+
+An integer `n` is a power of three, if there exists an integer `x` such that `n == 3^x`.
+
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
 
