@@ -47,6 +47,10 @@ Given an integer `n`, return *a string array* `answer` (**1-indexed**) where:
 - `answer[i] == "Buzz"` if `i` is divisible by `5`.
 - `answer[i] == i` if non of the above conditions are true.
 
+2. Count Primes
+
+Given an integer `n`, return *the number of prime number that are strictly less* than `n`. 
+
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
 
