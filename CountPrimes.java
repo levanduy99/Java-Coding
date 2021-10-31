@@ -34,6 +34,10 @@ public class CountPrimes {
     // solution 2
     public static int countPrime(int n) {
 
+        if (n < 2) {
+            return 0;
+        }
+
         HashSet<Integer> notPrimes = new HashSet<>();
 
         for (int i = 2; i * i < n; i++) {
