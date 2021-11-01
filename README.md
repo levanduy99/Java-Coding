@@ -1,7 +1,7 @@
 # Java-Coding
 [LeetCode](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 
-## Aarray
+## Array
 1. Remove Duplicates from Sorted Array
 
 Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates in-place such that each unique element appears only once. The **relative order** of the elements should be kept the same.
@@ -10,7 +10,7 @@ Since it is impossible to change the length of the array in some languages, you 
 
 Return `k` after placing the final result in the first `k` slots of `nums`.
 
-Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra menory.
+Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
 2. Best Time to Buy and Sell Stock II
 
@@ -59,4 +59,12 @@ An integer `n` is a power of three, if there exists an integer `x` such that `n 
 
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
-
+- **Time Complexity**: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
+```
+T(n) = 2T(n/2) + O(n)
+```
+The above recurrence can be solved either using the Recurrence Tree method or the Master method. It falls in case II of Master Method and the solution of the recurrence is O(nLogn). Time complexity of Merge Sort is O(nLogn) in all 3 cases (worst, average and best) as merge sort always divides the array into two halves and take linear time to merge two halves.
+- **Auxiliary Space**: O(n) 
+- **Algorithmic Paradigm**: Divide and Conquer
+- **Sorting In Place**: No in a typical implementation
+- **Stable**: Yes
