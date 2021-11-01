@@ -65,7 +65,11 @@ Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]
 
 As input string is valid if:
 - Open brackets must be closed by the same type of brackets.
-- Open brackets must be closed in the correct order. 
+- Open brackets must be closed in the correct order.
+
+2. Missing Number
+
+Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
 
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
