@@ -57,6 +57,16 @@ Given an integer `n`, return `true` if it is a power of three. Otherwise, return
 
 An integer `n` is a power of three, if there exists an integer `x` such that `n == 3^x`.
 
+## Others
+
+1. Valid Parentheses
+
+Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
+
+As input string is valid if:
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order. 
+
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
 - **Time Complexity**: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
