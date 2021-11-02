@@ -1,5 +1,9 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class RomanToInteger {
 
+    //solution 1
     public static int romanToInt(String s) {
 
         int number = 0;
@@ -50,9 +54,39 @@ public class RomanToInteger {
 
         return value;
     }
+
+    //solution 2
+    public static final Map<Character, Integer> roman = new HashMap<>() {
+        {
+            put('I', 1);
+            put('V', 5);
+            put('X', 10);
+            put('L', 50);
+            put('C', 100);
+            put('D', 500);
+            put('M', 1000);
+        }
+    };
+
+    public static int romanToInteger(String s) {
+
+        int value = 0;
+        int size = s.length();
+
+        for (int i = 0; i < size; i++) {
+            if (i != size -1 && roman.get(s.charAt(i)) < roman.get(s.charAt(i + 1))) {
+                value = value + roman.get(s.charAt(i+ 1)) - roman.get(s.charAt(i));
+                i++;
+            } else {
+                value += roman.get(s.charAt(i));
+            }
+        }
+
+        return value;
+    }
  
     public static void main(String[] args) {
         String s = "MCMXCIV";
-        System.out.println(romanToInt(s));
+        System.out.println(romanToInteger(s));
     }
 }
