@@ -44,6 +44,10 @@ Given two integer arrays `nums1` and `nums2`, return an array of their intersect
 
 Write a function that reverses a string. The input string is given as an array of character `s`.
 
+2. Reverse Integer
+
+Given a signed 32-bit integer `x`, return `x` with its digits reversed. 
+
 ## Math
 1. Fizz Buzz
 
