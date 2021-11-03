@@ -52,6 +52,10 @@ Given a signed 32-bit integer `x`, return `x` with its digits reversed.
 
 Given a string `s`, *find the first non-repeating character in it and return its index*. If it does not exist, return -1;
 
+4. Valid Anagram
+
+Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and return `false` otherwise.
+
 ## Math
 1. Fizz Buzz
 
