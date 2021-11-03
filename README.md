@@ -56,6 +56,12 @@ Given a string `s`, *find the first non-repeating character in it and return its
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and return `false` otherwise.
 
+5. Valid Palindrome
+
+A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and number.
+
+Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise. 
+
 ## Math
 1. Fizz Buzz
 
