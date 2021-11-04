@@ -34,7 +34,7 @@ Given a **non-empty** array of integers `nums`, every element appears *twice* ex
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
-5. Intersection of Two Arrays II
+6. Intersection of Two Arrays II
 
 Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
 
@@ -61,6 +61,17 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and re
 A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and number.
 
 Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise. 
+
+6. String to Integer (atoi)
+
+Implement the `myAtoi(String s)` function, which converts a string to a 32-bit signed integer (similar to C/C++ 's `atoi` function).
+
+The algorithm for `myAtoi(String s)` is as follow:
+
+- Read in and ignore any leading whitespace.
+- Check if the next character (if not already at the end of the string) is `'-'` or `'+'`. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
+- Read in next the character until the next non-digit character or the end of the input is reached. The rest of the string is ignored. 
+- Convert these digits into an integer (i.e. `"123" -> 123`, `"0032" -> 32`). If no digits were read, then the integer is `0`. Change the sign as necessary 
 
 ## Math
 1. Fizz Buzz
