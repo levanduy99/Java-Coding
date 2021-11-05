@@ -73,6 +73,11 @@ The algorithm for `myAtoi(String s)` is as follow:
 - Read in next the character until the next non-digit character or the end of the input is reached. The rest of the string is ignored. 
 - Convert these digits into an integer (i.e. `"123" -> 123`, `"0032" -> 32`). If no digits were read, then the integer is `0`. Change the sign as necessary 
 
+7. Implement strStr()
+
+Implement **strStr()**
+
+Return the index of the first occurrence of needle in haystack, or `-1` if `needle` is not part of `haystack`.
 ## Math
 1. Fizz Buzz
 
