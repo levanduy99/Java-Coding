@@ -146,3 +146,8 @@ The above recurrence can be solved either using the Recurrence Tree method or th
 - **Algorithmic Paradigm**: Divide and Conquer
 - **Sorting In Place**: No in a typical implementation
 - **Stable**: Yes
+
+2. Insertion Sort
+
+- **Time Complexity:** O(n^2)
+- **Auxiliary Space:** O(1)
