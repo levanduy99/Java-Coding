@@ -129,6 +129,10 @@ Write a function to **delete a node** in a singly-linked list. You will **not** 
 
 It is **guaranteed** that the node to be deleted is **not a tail node** in the list.
 
+2. Remove Nth Node From End of List
+
+Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
+
 ## Others
 
 1. Valid Parentheses
