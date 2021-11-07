@@ -38,6 +38,12 @@ You must implement a solution with a linear runtime complexity and use only cons
 
 Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
 
+7. Plus One
+
+You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `i_th` digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
+
+Increment the large integer by one and return *the resulting array of digits.*
+
 ## Strings
 
 1. Reverse String 
