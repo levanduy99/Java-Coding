@@ -161,6 +161,12 @@ Given an integer array `nums`, find the contiguous subarray (containing at least
 
 A **subarray** is a **contiguous** part of an array.
 
+3. House Robber
+
+You are a professional robber planning to rob houses along a street. Each houses has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and **it will automatically contact the police if two adjacent houses were broken into on the same night.**
+
+Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight **without alerting the police.**
+
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
 - **Time Complexity**: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
