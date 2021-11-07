@@ -133,6 +133,10 @@ It is **guaranteed** that the node to be deleted is **not a tail node** in the l
 
 Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
 
+3. Reverse Linked List
+
+Given the `head` of a singly linked list, reverse the list, and return *the reversed list*.
+
 ## Others
 
 1. Valid Parentheses
