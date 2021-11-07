@@ -50,6 +50,14 @@ Given an integer array `nums`, move all `0`'s to the end of it while maintaining
 
 **Note** that you must do this in-place without making a copy of the array.
 
+9. Two Sum
+
+Given an array of integer `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`.*
+
+You may assume that each input would have **exactly one solution**, and you may not use the *same element twice.*
+
+You can return the answer in any order.
+
 ## Strings
 
 1. Reverse String 
