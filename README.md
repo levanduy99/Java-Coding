@@ -44,6 +44,12 @@ You are given a **large integer** represented as an integer array `digits`, wher
 
 Increment the large integer by one and return *the resulting array of digits.*
 
+8. Move Zeroes
+
+Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
+
+**Note** that you must do this in-place without making a copy of the array.
+
 ## Strings
 
 1. Reverse String 
