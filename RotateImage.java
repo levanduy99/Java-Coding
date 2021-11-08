@@ -9,11 +9,11 @@ public class RotateImage {
         int size = matrix.length;
 
         //swap matrix[i][j] = matrix[j][i]
-        // for (int i = 0; i < size; i++) {
-        //     for (int j = i; j < size; j++) {
-        //         matrix[i][j] = swap(matrix[j][i], matrix[j][i] = matrix[i][j]);
-        //     }
-        // }
+        for (int i = 0; i < size; i++) {
+            for (int j = i; j < size; j++) {
+                matrix[i][j] = swap(matrix[j][i], matrix[j][i] = matrix[i][j]);
+            }
+        }
     
         //flip the matrix horizontally
         for (int i = 0; i < size; i++) {
