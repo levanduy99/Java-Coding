@@ -112,6 +112,12 @@ The algorithm for `myAtoi(String s)` is as follow:
 Implement **strStr()**
 
 Return the index of the first occurrence of needle in haystack, or `-1` if `needle` is not part of `haystack`.
+
+8. Longest Common Prefix
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string `""`.
 ## Math
 1. Fizz Buzz
 
