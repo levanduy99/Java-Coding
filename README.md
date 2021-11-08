@@ -66,6 +66,12 @@ Determine if a `9x9` Sudoku board is valid. Only the filled cells need to be val
 - Each column mus contain teh digits `1-9` without repetition.
 - Each of the nine `3x3` sub-boxes of the grid must contain the digits `1-9` without repetition.
 
+11. Rotate Image
+
+You are given an `nxn` 2D `matrix` representing an image, rotate the image by **90** degrees (clockwise).
+
+You have to rotate the image **in-place**, which means you have to modify the input 2D matrix directly. **DO NOT** allocate another 2D matrix and do the rotation.
+
 ## Strings
 
 1. Reverse String 
