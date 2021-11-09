@@ -180,6 +180,10 @@ Given the `head` of a singly linked list, reverse the list, and return *the reve
 4. Merge Two Sorted Lists
 
 Merge two sorted linked lists and return it as a **sorted** list. The list should be made by splicing together the nodes of the first two lists.
+
+5. Palindrome Linked List
+
+Given the `head` of a singly linked list, return `true` if it is a palindrome.
 ## Others
 
 1. Valid Parentheses
