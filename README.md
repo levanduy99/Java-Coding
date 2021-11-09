@@ -72,6 +72,12 @@ You are given an `nxn` 2D `matrix` representing an image, rotate the image by **
 
 You have to rotate the image **in-place**, which means you have to modify the input 2D matrix directly. **DO NOT** allocate another 2D matrix and do the rotation.
 
+12. Number of Islands
+
+Given an `m x n` 2D binary grid `grid` which represents a map of `1`s (land) and `0`s (water), return the *number of islands*.
+
+An **island** is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of teh grid are all surrounded by water.
+
 ## Strings
 
 1. Reverse String 
