@@ -224,6 +224,13 @@ You are a professional robber planning to rob houses along a street. Each houses
 
 Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight **without alerting the police.**
 
+## List
+1. Pascal's Triangle
+
+Given an integer `numRows`, return the first numRows of **Pascal's triangle**.
+
+In the **Pascal's triangle**, each number is the sum of the two numbers directly above.
+
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 1. Merge Sort
 - **Time Complexity**: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
