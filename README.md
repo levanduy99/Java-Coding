@@ -177,6 +177,9 @@ Given the `head` of a linked list, remove the `nth` node from the end of the lis
 
 Given the `head` of a singly linked list, reverse the list, and return *the reversed list*.
 
+4. Merge Two Sorted Lists
+
+Merge two sorted linked lists and return it as a **sorted** list. The list should be made by splicing together the nodes of the first two lists.
 ## Others
 
 1. Valid Parentheses
