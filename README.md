@@ -171,6 +171,12 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 
 Given a roman numeral, convert it to an integer.
 
+5. Palindrome Number 
+
+Given an integer `x`, return `true` if `x` is palindrome integer.
+
+An integer is a **palindrome** when it reads the same backward as forward. 
+
 ## Linked List
 
 1. Delete Node in a Linked List
