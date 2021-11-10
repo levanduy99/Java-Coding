@@ -1,5 +1,6 @@
 public class ReverseInteger {
     
+    //solution 1
     public static int reverse(int x) {
 
         int absX = Math.abs(x);
@@ -17,8 +18,23 @@ public class ReverseInteger {
         }
     }
 
+    //solution 2
+    public static int reverseInteger(int x) {
+
+        int reversed = 0;
+        int pop;
+
+        while (x != 0) {
+            pop = x % 10;
+            x = x/10;
+            reversed = reversed*10 + pop;
+        }
+
+        return reversed;
+    }
+
     public static void main(String[] args) {
         int x = -12345;
-        System.out.println(reverse(x));
+        System.out.println(reverseInteger(x));
     }
 }
