@@ -6,7 +6,7 @@ I want to improve your mindset programming skills.
 [LeetCode](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 
 ## Array
-1. Remove Duplicates from Sorted Array
+### 1. Remove Duplicates from Sorted Array
 
 Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates in-place such that each unique element appears only once. The **relative order** of the elements should be kept the same.
 
@@ -16,7 +16,7 @@ Return `k` after placing the final result in the first `k` slots of `nums`.
 
 Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
-2. Best Time to Buy and Sell Stock II
+### 2. Best Time to Buy and Sell Stock II
 
 You are given an integer array `price` where `price[i]` is the price of a given stock on the `i_th` day.
 
@@ -24,37 +24,37 @@ On each day, you may decide to buy and/or sell the stock. You can only hold at m
 
 Find and return the maximum profit you can achieve.
 
-3. Rotate Array
+### 3. Rotate Array
 
 Given an array, rorate the array to the right by `k` steps, where `k` is non-negative.
 
-4. Contains Duplicate
+### 4. Contains Duplicate
 
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
-5. Single Number 
+### 5. Single Number 
 
 Given a **non-empty** array of integers `nums`, every element appears *twice* except for one. Find that single one.
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
-6. Intersection of Two Arrays II
+### 6. Intersection of Two Arrays II
 
 Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in **any order**.
 
-7. Plus One
+### 7. Plus One
 
 You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `i_th` digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
 
 Increment the large integer by one and return *the resulting array of digits.*
 
-8. Move Zeroes
+### 8. Move Zeroes
 
 Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
 
 **Note** that you must do this in-place without making a copy of the array.
 
-9. Two Sum
+### 9. Two Sum
 
 Given an array of integer `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`.*
 
@@ -62,7 +62,7 @@ You may assume that each input would have **exactly one solution**, and you may 
 
 You can return the answer in any order.
 
-10. Valid Sudoku
+### 10. Valid Sudoku
 
 Determine if a `9x9` Sudoku board is valid. Only the filled cells need to be validated **according to the following rules.**
 
@@ -70,13 +70,13 @@ Determine if a `9x9` Sudoku board is valid. Only the filled cells need to be val
 - Each column mus contain teh digits `1-9` without repetition.
 - Each of the nine `3x3` sub-boxes of the grid must contain the digits `1-9` without repetition.
 
-11. Rotate Image
+### 11. Rotate Image
 
 You are given an `nxn` 2D `matrix` representing an image, rotate the image by **90** degrees (clockwise).
 
 You have to rotate the image **in-place**, which means you have to modify the input 2D matrix directly. **DO NOT** allocate another 2D matrix and do the rotation.
 
-12. Number of Islands
+### 12. Number of Islands
 
 Given an `m x n` 2D binary grid `grid` which represents a map of `1`s (land) and `0`s (water), return the *number of islands*.
 
@@ -84,29 +84,29 @@ An **island** is surrounded by water and is formed by connecting adjacent lands 
 
 ## Strings
 
-1. Reverse String 
+### 1. Reverse String 
 
 Write a function that reverses a string. The input string is given as an array of character `s`.
 
-2. Reverse Integer
+### 2. Reverse Integer
 
 Given a signed 32-bit integer `x`, return `x` with its digits reversed. 
 
-3. First Unique Character in a String
+### 3. First Unique Character in a String
 
 Given a string `s`, *find the first non-repeating character in it and return its index*. If it does not exist, return -1;
 
-4. Valid Anagram
+### 4. Valid Anagram
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and return `false` otherwise.
 
-5. Valid Palindrome
+### 5. Valid Palindrome
 
 A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and number.
 
 Given a string `s`, return `true` if it is a **palindrome**, or `false` otherwise. 
 
-6. String to Integer (atoi)
+### 6. String to Integer (atoi)
 
 Implement the `myAtoi(String s)` function, which converts a string to a 32-bit signed integer (similar to C/C++ 's `atoi` function).
 
@@ -117,24 +117,24 @@ The algorithm for `myAtoi(String s)` is as follow:
 - Read in next the character until the next non-digit character or the end of the input is reached. The rest of the string is ignored. 
 - Convert these digits into an integer (i.e. `"123" -> 123`, `"0032" -> 32`). If no digits were read, then the integer is `0`. Change the sign as necessary 
 
-7. Implement strStr()
+### 7. Implement strStr()
 
 Implement **strStr()**
 
 Return the index of the first occurrence of needle in haystack, or `-1` if `needle` is not part of `haystack`.
 
-8. Longest Common Prefix
+### 8. Longest Common Prefix
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string `""`.
 
-9. To Lower Case
+### 9. To Lower Case
 
 Given a string `s`, return *the string after replacing every uppercase letter with the same lowercase letter.*
 
 ## Math
-1. Fizz Buzz
+### 1. Fizz Buzz
 
 Given an integer `n`, return *a string array* `answer` (**1-indexed**) where:
 - `answer[i] == "FizzBuzz"` if `i` is divisible by `3` and `5`.
@@ -142,17 +142,17 @@ Given an integer `n`, return *a string array* `answer` (**1-indexed**) where:
 - `answer[i] == "Buzz"` if `i` is divisible by `5`.
 - `answer[i] == i` if non of the above conditions are true.
 
-2. Count Primes
+### 2. Count Primes
 
 Given an integer `n`, return *the number of prime number that are strictly less* than `n`. 
 
-3. Power of Three
+### 3. Power of Three
 
 Given an integer `n`, return `true` if it is a power of three. Otherwise, return `false`.
 
 An integer `n` is a power of three, if there exists an integer `x` such that `n == 3^x`.
 
-4. Roman to Integer
+### 4. Roman to Integer
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
@@ -176,7 +176,7 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 
 Given a roman numeral, convert it to an integer.
 
-5. Palindrome Number 
+### 5. Palindrome Number 
 
 Given an integer `x`, return `true` if `x` is palindrome integer.
 
@@ -184,29 +184,29 @@ An integer is a **palindrome** when it reads the same backward as forward.
 
 ## Linked List
 
-1. Delete Node in a Linked List
+### 1. Delete Node in a Linked List
 
 Write a function to **delete a node** in a singly-linked list. You will **not** be given access to the `head` of the list, instead you will be given access to **the node to be deleted** directly.
 
 It is **guaranteed** that the node to be deleted is **not a tail node** in the list.
 
-2. Remove Nth Node From End of List
+### 2. Remove Nth Node From End of List
 
 Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
 
-3. Reverse Linked List
+### 3. Reverse Linked List
 
 Given the `head` of a singly linked list, reverse the list, and return *the reversed list*.
 
-4. Merge Two Sorted Lists
+### 4. Merge Two Sorted Lists
 
 Merge two sorted linked lists and return it as a **sorted** list. The list should be made by splicing together the nodes of the first two lists.
 
-5. Palindrome Linked List
+### 5. Palindrome Linked List
 
 Given the `head` of a singly linked list, return `true` if it is a palindrome.
 
-6. Odd Even Linked List
+### 6. Odd Even Linked List
 
 Given the `head` of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return *the reorder list.*
 
@@ -217,7 +217,7 @@ Note that the relative order inside both the even and odd groups should remain a
 You must solve the problem in `O(1)` extra space complexity and `O(n)` time complexity.
 ## Others
 
-1. Valid Parentheses
+### 1. Valid Parentheses
 
 Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
 
@@ -225,39 +225,39 @@ As input string is valid if:
 - Open brackets must be closed by the same type of brackets.
 - Open brackets must be closed in the correct order.
 
-2. Missing Number
+### 2. Missing Number
 
 Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
 
 ## Dynamic Programming
 
-1. Climbing Stairs
+### 1. Climbing Stairs
 
 You are climbing a staircase. It takes `n` steps to reach the top.
 
 Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?
 
-2. Maximum Subarray
+### 2. Maximum Subarray
 
 Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
 A **subarray** is a **contiguous** part of an array.
 
-3. House Robber
+### 3. House Robber
 
 You are a professional robber planning to rob houses along a street. Each houses has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and **it will automatically contact the police if two adjacent houses were broken into on the same night.**
 
 Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight **without alerting the police.**
 
 ## List
-1. Pascal's Triangle
+### 1. Pascal's Triangle
 
 Given an integer `numRows`, return the first numRows of **Pascal's triangle**.
 
 In the **Pascal's triangle**, each number is the sum of the two numbers directly above.
 
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
-1. Merge Sort
+### 1. Merge Sort
 - **Time Complexity**: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
 ```
 T(n) = 2T(n/2) + O(n)
@@ -268,12 +268,12 @@ The above recurrence can be solved either using the Recurrence Tree method or th
 - **Sorting In Place**: No in a typical implementation
 - **Stable**: Yes
 
-2. Insertion Sort
+### 2. Insertion Sort
 
 - **Time Complexity:** O(n^2)
 - **Auxiliary Space:** O(1)
 
 ## Search
 
-1. Binary Search
+### 1. Binary Search
 - **Time Complexity:** O(Log n)
