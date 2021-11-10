@@ -257,3 +257,8 @@ The above recurrence can be solved either using the Recurrence Tree method or th
 
 - **Time Complexity:** O(n^2)
 - **Auxiliary Space:** O(1)
+
+## Search
+
+1. Binary Search
+- **Time Complexity:** O(Log n)
