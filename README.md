@@ -128,6 +128,11 @@ Return the index of the first occurrence of needle in haystack, or `-1` if `need
 Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string `""`.
+
+9. To Lower Case
+
+Given a string `s`, return *the string after replacing every uppercase letter with the same lowercase letter.*
+
 ## Math
 1. Fizz Buzz
 
