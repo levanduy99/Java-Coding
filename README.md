@@ -221,6 +221,12 @@ The **first** node is considered odd, and the **second** node is **even**, and s
 Note that the relative order inside both the even and odd groups should remain as it was in the input.
 
 You must solve the problem in `O(1)` extra space complexity and `O(n)` time complexity.
+
+### 7. Middle of the Linked List
+
+Given the `head` of a singly linked list, return *the middle node of the linked list.*
+If there are two middle nodes, return **the second middle** node.
+
 ## Others
 
 ### 1. Valid Parentheses
