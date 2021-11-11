@@ -82,6 +82,10 @@ Given an `m x n` 2D binary grid `grid` which represents a map of `1`s (land) and
 
 An **island** is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of teh grid are all surrounded by water.
 
+### 13. Squares of a Sorted Array
+
+Given an integer array `nums` sorted in **non-decreasing** order, return *an array of **teh squares of each number** sorted in non-decreasing order.* 
+
 ## Strings
 
 ### 1. Reverse String 
@@ -283,6 +287,11 @@ The above recurrence can be solved either using the Recurrence Tree method or th
 ### 2. Insertion Sort
 
 - **Time Complexity:** O(n^2)
+- **Auxiliary Space:** O(1)
+
+### 3. Selection sort
+
+- **Time Complexity:** O(n^2) as there are two nested loops
 - **Auxiliary Space:** O(1)
 
 ## Search
