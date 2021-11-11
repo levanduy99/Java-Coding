@@ -133,6 +133,12 @@ If there is no common prefix, return an empty string `""`.
 
 Given a string `s`, return *the string after replacing every uppercase letter with the same lowercase letter.*
 
+### 10. Backspace String Compare
+
+Given two strings `s` and `t` , return `true` *if they are equal when both are typed into empty text editors.* `#` means a backspace character.
+
+Note that after backspacing an empty text, the text will continue empty.
+
 ## Math
 ### 1. Fizz Buzz
 
