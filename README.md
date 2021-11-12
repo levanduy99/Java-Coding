@@ -92,6 +92,14 @@ Given `n` non-negative integers `a1, a2, ..., an`, where each represents a point
 
 **Notice** that you may not slant the container
 
+### 15. 3Sum Closest
+
+Given an integer array `nums` of length `n` adn an integer `target`, find three integer in `nums` such that the sum is closest to `target`.
+
+Return *the sum of the three integers.*
+
+You may assume that each input would have exactly one solution.
+
 ## Strings
 
 ### 1. Reverse String 
