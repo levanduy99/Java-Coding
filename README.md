@@ -245,6 +245,16 @@ You must solve the problem in `O(1)` extra space complexity and `O(n)` time comp
 Given the `head` of a singly linked list, return *the middle node of the linked list.*
 If there are two middle nodes, return **the second middle** node.
 
+### 8. Swap Nodes in Paris
+
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the value in the list's nodes (i.e., only nodes themselves may be changed)
+
+### 9. Partition List
+
+Given the `head` of a linked list and a value `x`, partition it such that all nodes **less than** `x` come before nodes **greater than or equal** to `x`.
+
+You should **preserve** the original relation order of the nodes in each of the two partitions.
+
 ## Others
 
 ### 1. Valid Parentheses
