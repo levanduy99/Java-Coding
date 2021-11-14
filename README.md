@@ -216,6 +216,12 @@ An integer is a **palindrome** when it reads the same backward as forward.
 
 Implement `pow(x, n)`, which calculate `x` raised to the power `n`
 
+### 7. Power of Four
+
+Given an integer `n`, return `true` if it is a *power of four*. Otherwise, return `false`.
+
+An integer `n` is a power of four, if there exists an integer `x` such that `n == 4 ^ x`
+
 ## Linked List
 
 ### 1. Delete Node in a Linked List
