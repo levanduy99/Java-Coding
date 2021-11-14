@@ -212,6 +212,10 @@ Given an integer `x`, return `true` if `x` is palindrome integer.
 
 An integer is a **palindrome** when it reads the same backward as forward. 
 
+### 6. Pow(x, n)
+
+Implement `pow(x, n)`, which calculate `x` raised to the power `n`
+
 ## Linked List
 
 ### 1. Delete Node in a Linked List
