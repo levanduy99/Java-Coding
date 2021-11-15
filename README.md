@@ -222,6 +222,10 @@ Given an integer `n`, return `true` if it is a *power of four*. Otherwise, retur
 
 An integer `n` is a power of four, if there exists an integer `x` such that `n == 4 ^ x`
 
+### 8. Add Binary
+
+Given two binary string `a` and `b`, return *their sum* as a binary string.
+
 ## Linked List
 
 ### 1. Delete Node in a Linked List
