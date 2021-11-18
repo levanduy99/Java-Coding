@@ -110,6 +110,10 @@ Let's call an array `arr` a **mountain** if the following properties hold:
 
 Given an integer array `arr` that is **guaranteed** to be a mountain, return any `i` such that `arr[0] < arr[1] < ... < arr[i-1] < arr[i] > arr[i+1] > ... > arr[arr.length - 1]`.
 
+### 17. Spiral Matrix
+
+Given an `m x n` `matrix`, return *all elements* of the `matrix` in *spiral order*.
+
 ## Strings
 
 ### 1. Reverse String 
