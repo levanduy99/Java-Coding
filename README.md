@@ -173,6 +173,14 @@ You're given string `jewels` representing the types of stones that are jewels, a
 
 Letters are case sensitive, so `"a"` is considered a different type of stone from `"A"`. 
 
+### 12. Reverse Only Letters
+
+Given a string `s`, reverse the string according to the following rules:
+- All the characters that are not English letters remain in the same position.
+- All teh English letters (lowercase or uppercase) should be reversed.
+
+Return `s` *after reversing it*.
+
 ## Math
 ### 1. Fizz Buzz
 
