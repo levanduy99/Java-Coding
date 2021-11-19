@@ -280,6 +280,12 @@ An integer `n` is a power of four, if there exists an integer `x` such that `n =
 
 Given two binary string `a` and `b`, return *their sum* as a binary string.
 
+### 9. Self Dividing Numbers
+
+A **self-dividing number** is a number that is divisible by every digit it contains. A **self-dividing number** is not allowed to contain the digit zero.
+
+Given two integer `left` and `right`, return *a list of all the **self-dividing numbers** in the range `[left, right]`.
+
 ## Linked List
 
 ### 1. Delete Node in a Linked List
