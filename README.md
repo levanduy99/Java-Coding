@@ -128,6 +128,12 @@ Given an array of strings `words` where each can be written as a concatenation o
 
 Return *the number of different **transformations** among all words* we have.
 
+### 20. Sort Array By Parity
+
+Given an integer array `nums`, move all the even integers at the beginning of the array followed by all the odd integers.
+
+Return **any array** *that satisfies this condition*.
+
 ## Strings
 
 ### 1. Reverse String 
