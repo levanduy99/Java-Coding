@@ -118,6 +118,16 @@ Given an `m x n` `matrix`, return *all elements* of the `matrix` in *spiral orde
 
 Given a positive integer `n`, generate an `n x n` `matrix` filled with elements from `1` to `n^2` in spiral oder.
 
+### 19. Unique Morse Code Words
+
+International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes,as follows:
+- `'a'` maps to `".-"`,
+- `'b'` maps to `"-..."`, and so on. 
+
+Given an array of strings `words` where each can be written as a concatenation of the Morse code of each letter.
+
+Return *the number of different **transformations** among all words* we have.
+
 ## Strings
 
 ### 1. Reverse String 
