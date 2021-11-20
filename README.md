@@ -221,6 +221,10 @@ It is possible to use both of these rules at the same.
 
 Given an array of strings `email` where we send one email to each `email[i]`, return **the number of different addresses that actually receive mails*.
 
+### 14. Find Common Characters
+
+Given a string array `words`, return *an array of all characters that show up in all string within the `words` (including duplicates)*. You may return the answer in **any order**.
+
 ## Math
 ### 1. Fizz Buzz
 
