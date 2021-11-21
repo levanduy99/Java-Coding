@@ -134,9 +134,15 @@ Given an integer array `nums`, move all the even integers at the beginning of th
 
 Return **any array** *that satisfies this condition*.
 
-### 21.
+### 21. Array Partition I
 
 Given an integer array `nums` of `2n` integers, group these integers into n pairs `(a1, b1), (a2, b2), ..., (an, bn)` such that the sum of `min(ai, bi)` for all `i` is **maximized**. Return *the maximized sum*.
+
+### Sort Array By Parity II
+
+Given an array of integers `nums`, half of the integers in `nums` are **odd**, and the other half are **even**. Sort the array so that whenever `nums[i]` is odd, `i` is **odd**, and whenever `nums[i]` is even, `i` is **even**.
+
+Return *any answer array that satisfies this condition*.
 
 ## Strings
 
