@@ -138,11 +138,15 @@ Return **any array** *that satisfies this condition*.
 
 Given an integer array `nums` of `2n` integers, group these integers into n pairs `(a1, b1), (a2, b2), ..., (an, bn)` such that the sum of `min(ai, bi)` for all `i` is **maximized**. Return *the maximized sum*.
 
-### Sort Array By Parity II
+### 22. Sort Array By Parity II
 
 Given an array of integers `nums`, half of the integers in `nums` are **odd**, and the other half are **even**. Sort the array so that whenever `nums[i]` is odd, `i` is **odd**, and whenever `nums[i]` is even, `i` is **even**.
 
 Return *any answer array that satisfies this condition*.
+
+### 23. Transpose Matrix
+
+Given a 2D integer array `matrix`, return *the **transpose** of `matrix`*. The **transpose** of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
 
 ## Strings
 
