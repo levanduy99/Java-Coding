@@ -353,6 +353,12 @@ Given the `head` of a linked list and a value `x`, partition it such that all no
 
 You should **preserve** the original relation order of the nodes in each of the two partitions.
 
+### 10. Add Two Numbers
+
+You are given two **non-empty** linked list representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add  the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
 ## Others
 
 ### 1. Valid Parentheses
