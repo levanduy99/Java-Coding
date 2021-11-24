@@ -148,6 +148,10 @@ Return *any answer array that satisfies this condition*.
 
 Given a 2D integer array `matrix`, return *the **transpose** of `matrix`*. The **transpose** of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
 
+### 24. Minimum Size Subarray Sum
+
+Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a **contiguous subarray** of which the sum is greater than or equal to `target`. If there is no such subarray, return 0 instead.
+
 ## Strings
 
 ### 1. Reverse String 
@@ -235,6 +239,9 @@ Given an array of strings `email` where we send one email to each `email[i]`, re
 
 Given a string array `words`, return *an array of all characters that show up in all string within the `words` (including duplicates)*. You may return the answer in **any order**.
 
+### 15. Valid Palindrome II
+
+Given a string `s`, return `true` *if the `s` can be palindrome after deleting **at most one** character from it*.
 ## Math
 ### 1. Fizz Buzz
 
