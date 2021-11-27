@@ -242,6 +242,13 @@ Given a string array `words`, return *an array of all characters that show up in
 ### 15. Valid Palindrome II
 
 Given a string `s`, return `true` *if the `s` can be palindrome after deleting **at most one** character from it*.
+
+### 16. Word Subsets
+
+You are given two string arrays `words1` and `words2`. A string `b` is a **subset** if string `a` if every letter in `b` occurs in `a` including multiplicity. A string `a` from `words1` is **universal** if for every string `b` in `words2`, `b` is subset of `a`.
+
+Return an array of all the **universal** strings in `words1`. You may return the answer in **any order**.
+
 ## Math
 ### 1. Fizz Buzz
 
