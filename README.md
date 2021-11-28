@@ -152,6 +152,12 @@ Given a 2D integer array `matrix`, return *the **transpose** of `matrix`*. The *
 
 Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a **contiguous subarray** of which the sum is greater than or equal to `target`. If there is no such subarray, return 0 instead.
 
+### 25. Search a 2D Matrix
+
+Given an efficient algorithm that searches for a value in an `m x n` matrix. This matrix has the following properties:
+- Integers in each row are sorted from left to right.
+- The first integer of each row is greater than the last integer of the previous row.
+
 ## Strings
 
 ### 1. Reverse String 
