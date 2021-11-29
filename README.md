@@ -255,6 +255,9 @@ You are given two string arrays `words1` and `words2`. A string `b` is a **subse
 
 Return an array of all the **universal** strings in `words1`. You may return the answer in **any order**.
 
+### 17. Remove K Digits
+
+Given string num representing a non-negative integer `num`, and an integer `k`, return *the smallest possible integer after removing `k` digits from `num`*.
 ## Math
 ### 1. Fizz Buzz
 
