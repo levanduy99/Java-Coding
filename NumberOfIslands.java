@@ -7,33 +7,8 @@ class NumberOfIslands {
         for (int r = 0; r < grid.length; r++) {
             for (int c = 0; c < grid[0].length; c++) {
                 if (grid[r][c] == '1') {
-                    /**
-                     * row = r - 1 && col = c // up
-                     * row = r + 1 && col = c // down
-                     * row = r && col = c - 1 // left
-                     * row = r && col = c + 1 // right
-                     */
-                    int countWater = 0;
-                    //case UP
-                    if (isWater(grid, r - 1, c)) {
-                        countWater++;
-                    }
-                    //case DOWN
-                    if (isWater(grid, r + 1, c)) {
-                        countWater++;
-                    }
-                    //case LEFT
-                    if (isWater(grid, r, c - 1)) {
-                        countWater++;
-                    }
-                    //case RIGHT
-                    if (isWater(grid, r, c + 1)) {
-                        countWater++;
-                    }
-                    //check island
-                    if (countWater >= 3) {
-                        countIsland++;
-                    }
+                    removeIsland(r, c, grid);
+                    countIsland++;
                 }
             }
         }
@@ -41,19 +16,21 @@ class NumberOfIslands {
         return countIsland;
     }
 
-    public static boolean isWater(char[][] grid, int r, int c) {
-        
-        if (r < 0 || r >= grid.length) {
-            return true;
-        } 
+    static boolean removeIsland(int r, int c, char[][] grid) {
 
-        if (c < 0 || c >= grid[0].length) {
-            return true;
+        if (r < 0 || r >= grid.length || c < 0 || c >= grid[0].length) {
+            return false;
         }
 
         if (grid[r][c] == '0') {
-            return true;
+            return false;
         }
+
+        grid[r][c] = '0';
+        removeIsland(r + 1, c, grid);
+        removeIsland(r - 1, c, grid);
+        removeIsland(r, c + 1, grid);
+        removeIsland(r, c - 1, grid);
 
         return false;
     }
