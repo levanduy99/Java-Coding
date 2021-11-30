@@ -272,6 +272,14 @@ Return an array of all the **universal** strings in `words1`. You may return the
 ### 17. Remove K Digits
 
 Given string num representing a non-negative integer `num`, and an integer `k`, return *the smallest possible integer after removing `k` digits from `num`*.
+### 18. Remove All Adjacent Duplicates in String
+
+You are given a string `s` consisting of lowercase English letters. A **duplicate removal** consists of choosing two **adjacent** and **equal** letters and removing them.
+
+We repeatedly make **duplicate removals** on `s` until we no longer can.
+
+Return *the final string after all such duplicate removals have been made*. It can be proven that the answer is **unique**.
+
 ## Math
 ### 1. Fizz Buzz
 
