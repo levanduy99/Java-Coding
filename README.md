@@ -158,6 +158,12 @@ Given an efficient algorithm that searches for a value in an `m x n` matrix. Thi
 - Integers in each row are sorted from left to right.
 - The first integer of each row is greater than the last integer of the previous row.
 
+### 26. Word Search
+
+Given an `m x n` grid of character `board` and a string `word`, return `true` if `word` *exists in grid*.
+
+The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
 ## Strings
 
 ### 1. Reverse String 
