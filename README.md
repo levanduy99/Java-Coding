@@ -180,6 +180,10 @@ Grid cells are connected **horizontally/vertically** (not diagonally). The `grid
 
 The island doesn't have "lakes", meaning the water inside isn't connected to the water around island. One cell is a square with side length = 1. the grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
 
+### 29. Max Consecutive Ones
+
+Given a binary array `nums`, return *the maximum number of consecutive `1`'s in the array*.
+
 ## Strings
 
 ### 1. Reverse String 
