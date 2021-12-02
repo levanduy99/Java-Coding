@@ -294,6 +294,10 @@ You are given an array of strings `words` and a string `chars`. A string is **go
 
 *Return the sum of lengths of all good strings in words*.
 
+### 20. Rotate String
+
+Given two strings `s` and `goal`, return `true` *if and only if `s` can become `goal` after some number of **shifts** on `s`*. A **shift** on `s` consists of moving the leftmost character of `s` to the rightmost position.
+
 ## Math
 ### 1. Fizz Buzz
 
