@@ -184,6 +184,18 @@ The island doesn't have "lakes", meaning the water inside isn't connected to the
 
 Given a binary array `nums`, return *the maximum number of consecutive `1`'s in the array*.
 
+### 30. Fruit Into Baskets
+
+You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees represented by an integer array `fruits` where `fruits[i]` is the **type** of fruit the `i_th` tree produces.
+
+You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:
+
+- You only have **two** baskets, and each basket can only hold a **single type** of fruit. There is no limit on the amount of fruit each basket can hold.
+- Starting from any tree of your choice, you must pick **exactly one fruit** from **every** tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
+- Once you reach a tree with fruit that cannot fit your baskets, you must stop.
+
+Given the integer array `fruits`, return *the **maximum** number of fruits you can pick*.
+
 ## Strings
 
 ### 1. Reverse String 
@@ -465,6 +477,28 @@ A **subarray** is a **contiguous** part of an array.
 You are a professional robber planning to rob houses along a street. Each houses has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and **it will automatically contact the police if two adjacent houses were broken into on the same night.**
 
 Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight **without alerting the police.**
+
+## SQL
+
+### 1. Duplicate Emails
+
+Table: `Person`
+
+Column Name | Type 
+--- | ---
+id | int
+email | varchar
+
+- id is the primary key column for this table.
+- Each row of this table contains an email. The emails will not contain uppercase letters.
+
+Write an SQL query to report all the duplicate emails.
+Return the result table in **any order**.
+
+#### Solution 
+```
+SELECT Email FROM (SELECT Email, COUNT(Email) AS c FROM Person GROUP BY Email) Person WHERE c > 1;
+```
 
 ## List
 ### 1. Pascal's Triangle
