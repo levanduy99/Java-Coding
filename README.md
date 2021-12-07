@@ -196,6 +196,12 @@ You want to collect as much fruit as possible. However, the owner has some stric
 
 Given the integer array `fruits`, return *the **maximum** number of fruits you can pick*.
 
+### 31. Letter Combinations of a Phone Number
+
+Given a string containing digits from `2 - 9` inclusive, return all possible combinations that the number could represent. Return the answer in **any order**.
+
+A mapping of digit to letter (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
 ## Strings
 
 ### 1. Reverse String 
