@@ -549,6 +549,11 @@ SELECT Person.firstName, Person.lastName, Address.city, Address.state FROM Perso
 
 Given an integer `numRows`, return the first numRows of **Pascal's triangle**.
 
+### 2. Subsets
+
+Given an integer array `nums` of **unique** elements, return *all possible subsets (the power set)*.
+The solution set **must not** contain duplicate subset. Return the solution in **any order**.
+
 In the **Pascal's triangle**, each number is the sum of the two numbers directly above.
 
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
