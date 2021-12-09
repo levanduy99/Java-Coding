@@ -202,6 +202,10 @@ Given a string containing digits from `2 - 9` inclusive, return all possible com
 
 A mapping of digit to letter (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
+### 32. Subarray Sum Equals K
+
+Given an array of integers and an integer **k**, return *the total number of continuous subarray whose sum equals to `k`*.
+
 ## Strings
 
 ### 1. Reverse String 
