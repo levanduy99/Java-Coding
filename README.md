@@ -464,6 +464,12 @@ You are given two **non-empty** linked list representing two non-negative intege
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
+### 11. Next Greater Node In Linked List
+
+You are given the `head` of a linked list with `n` nodes. For each node in the list, find the value of the **next greater node**. That is, for each node, find the value of the first node that is next to it and has a **strictly larger** value than it.
+
+Return an integer array `answer` where `answer[i]` is the value of the next greater node of the `i_th` node (**1-indexed**). If the `i_th` node does not have a next greater node, set `answer[i] = 0`.
+
 ## Others
 
 ### 1. Valid Parentheses
