@@ -350,6 +350,12 @@ You may assume that the input string is always valid; No extra white spaces, squ
 
 Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, `k`. For example, there won't be input like `3a` or `2[3]`
 
+### 25. Long Pressed Name
+
+Your friend is typing his `name` into a keyboard. Sometimes, when typing a character `c`, the key might get *long pressed*, and the character will be typed 1 or more times.
+
+You examine the `typed` characters of the keyboard. Return `True` if it is possible that it was your friends name, with some characters (possible none) being long pressed.
+
 ## Math
 ### 1. Fizz Buzz
 
