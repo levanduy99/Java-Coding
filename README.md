@@ -206,6 +206,14 @@ A mapping of digit to letter (just like on the telephone buttons) is given below
 
 Given an array of integers and an integer **k**, return *the total number of continuous subarray whose sum equals to `k`*.
 
+### 33. Sort Colors
+
+Given an array `nums` with `n` objects colored red, white, or blue, sort them **in-place** so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+We will use the integers `0`, `1` and `2` to present the color red, white, and blue respectively.
+
+You must solve this problem without using the library's sort function. 
+
 ## Strings
 
 ### 1. Reverse String 
