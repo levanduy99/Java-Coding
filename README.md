@@ -214,6 +214,14 @@ We will use the integers `0`, `1` and `2` to present the color red, white, and b
 
 You must solve this problem without using the library's sort function. 
 
+### Lemonade Change
+
+At a lemonade stand, each lemonade costs `$5`. Customers are standing in a queue to buy from you, and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a `$5`, `$10`, or `$20` bill. You must provide the correct change to each customer so that the next transaction is that the customer pays `$5`.
+
+Note that you don't have any change in hand at first. 
+
+Given an integer array `bills` where `bills[i]` is the bill the `i_th` customer pays, return `true` if you can provide every customer with correct change, or `false` otherwise.
+
 ## Strings
 
 ### 1. Reverse String 
