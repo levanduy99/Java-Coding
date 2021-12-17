@@ -222,6 +222,12 @@ Note that you don't have any change in hand at first.
 
 Given an integer array `bills` where `bills[i]` is the bill the `i_th` customer pays, return `true` if you can provide every customer with correct change, or `false` otherwise.
 
+### Min Cost Climbing Stairs
+
+You are given an integer array `cost` where `cost[i]` is the cost of `i_th`  step on a staircase. Once you pay the cost, you can either climb one or two steps.
+
+You can either start from the step with index `0`, or the step with index `1`. Return *the minimum cost to reach the top of the floor*.
+
 ## Strings
 
 ### 1. Reverse String 
