@@ -378,6 +378,12 @@ Your friend is typing his `name` into a keyboard. Sometimes, when typing a chara
 
 You examine the `typed` characters of the keyboard. Return `True` if it is possible that it was your friends name, with some characters (possible none) being long pressed.
 
+### 26. Longest Repeating Character Replacement
+
+You are given a string `s` and an integer `k`. You can choose character of the string and change it to any other uppercase English character. You can perform this operation at most `k` times.
+
+Return *the length of the longest substring containing the same letter you can get after performing the above operations*.
+
 ## Math
 ### 1. Fizz Buzz
 
@@ -596,6 +602,24 @@ Return the result table in **any order**.
 #### Solution 
 ```
 SELECT Person.firstName, Person.lastName, Address.city, Address.state FROM Person LEFT JOIN Address ON Person.personId = Address.personId;
+```
+
+### 3. Customer Who Never Order.
+
+Table: `Customers`
+
+Table: `Orders`
+
+Write an SQL query to report all customers who never order anything. Return the result table in **any order**. 
+
+#### Solution 
+```
+SELECT
+c.Name AS Customers
+FROM customers AS c
+LEFT JOIN orders AS o
+ON c.id = o.customerid
+WHERE o.customerid IS NULL;
 ```
 
 ## List
