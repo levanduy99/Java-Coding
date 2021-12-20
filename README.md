@@ -214,7 +214,7 @@ We will use the integers `0`, `1` and `2` to present the color red, white, and b
 
 You must solve this problem without using the library's sort function. 
 
-### Lemonade Change
+### 34. Lemonade Change
 
 At a lemonade stand, each lemonade costs `$5`. Customers are standing in a queue to buy from you, and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a `$5`, `$10`, or `$20` bill. You must provide the correct change to each customer so that the next transaction is that the customer pays `$5`.
 
@@ -222,11 +222,19 @@ Note that you don't have any change in hand at first.
 
 Given an integer array `bills` where `bills[i]` is the bill the `i_th` customer pays, return `true` if you can provide every customer with correct change, or `false` otherwise.
 
-### Min Cost Climbing Stairs
+### 35. Min Cost Climbing Stairs
 
 You are given an integer array `cost` where `cost[i]` is the cost of `i_th`  step on a staircase. Once you pay the cost, you can either climb one or two steps.
 
 You can either start from the step with index `0`, or the step with index `1`. Return *the minimum cost to reach the top of the floor*.
+
+### 36. Find Pivot Index
+
+Given an array of integer `nums`, calculate the **pivot index** of this array. The **pivot index** is the index where the sum of all the numbers **strictly** to the left of the index is equal to the sum of all the numbers **strictly** to the index's right.
+
+If the index is on the left edge of the array, then the left some is `0` because there are no elements to the left. This also applies to the right edge of the array.
+
+Return *the **leftmost pivot index***. If no such index exists, return -1;
 
 ## Strings
 
