@@ -236,6 +236,14 @@ If the index is on the left edge of the array, then the left some is `0` because
 
 Return *the **leftmost pivot index***. If no such index exists, return -1;
 
+### 37. Find First and Last Position of Element in Sorted Array
+
+Given an array of integer `nums` sorted in non-decreasing order, find the starting and ending position of a given `target` value. 
+
+If `target` is not found in the array, return `[-1, -1]`.
+
+You must write an algorithm with `0(log n)` runtime complexity.
+
 ## Strings
 
 ### 1. Reverse String 
