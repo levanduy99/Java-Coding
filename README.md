@@ -409,6 +409,12 @@ You are given a string `s` and an integer `k`. You can choose character of the s
 
 Return *the length of the longest substring containing the same letter you can get after performing the above operations*.
 
+### 27. Longest Palindrome
+
+Given a string `s` which consists of lowercase and uppercase letters, return *the length of the **longest palindrome*** that can be built with those letters.
+
+Letters are **case sensitive**, for example, `"Aa"` is not considered a palindrome here.
+
 ## Math
 ### 1. Fizz Buzz
 
