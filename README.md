@@ -244,6 +244,15 @@ If `target` is not found in the array, return `[-1, -1]`.
 
 You must write an algorithm with `0(log n)` runtime complexity.
 
+### 38. Flipping an Image
+
+Given an `n x n` binary matrix `image`, flip the image **horizontally**, then invert it, and return *the resulting image*. 
+
+To flip an image horizontally means that each row of the image is reversed.
+- For example, flipping `[1,1,0]` horizontally result in `[0,1,1]`.
+To invert an image means that each `0` is replaced by `1`, and each `1` is replaced by `0`.
+- For example, inverting `[0,1,1]` result in `[1,0,0]`.
+
 ## Strings
 
 ### 1. Reverse String 
