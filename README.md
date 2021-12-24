@@ -261,6 +261,12 @@ Two rectangles overlap if the area of their intersection is positive. To be clea
 
 Given two axis-aligned rectangles `rec1` and `rec2`, return `true` *if they overlap, otherwise return `false`*.
 
+### 40. Assign Cookies
+
+Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.
+
+Each child `i` has a greed factor `g[i]`, which is the minimum size of a cookie that the child will be content with; and each cookie `j` has a size `s[j]`. If `s[j] >= g[i]`, we can assign the cookie `j` to the child `i`, and the child `i` will be content. Your goal is to maximize the number of your content children and output the maximum number.
+
 ## Strings
 
 ### 1. Reverse String 
