@@ -429,6 +429,11 @@ Given a string `s` which consists of lowercase and uppercase letters, return *th
 
 Letters are **case sensitive**, for example, `"Aa"` is not considered a palindrome here.
 
+### 28. Word Pattern
+
+Given a `pattern` and a string `s`, find if `s` follows the same pattern.
+
+Here **follow** means a full match, such that there is a bijection between a letter in `pattern` and a **non-empty** word in `s`.
 ## Math
 ### 1. Fizz Buzz
 
