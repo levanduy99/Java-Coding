@@ -277,6 +277,16 @@ Given the array `nums` **after** the possible rotation and an integer **target**
 
 You must write an algorithm with `O(log n)` runtime complexity.
 
+### 42. Flood Fill
+
+An image is represented by an `m x n` integer grid `image` where `image[i][j]` represents the pixel value of the image.
+
+You are also given three integer `sr`, `sc`, and `newColor`. You should perform a **flood fill** on the image starting from the pixel `image[sr][sc]`.
+
+To perform a **flood fill**, consider the starting pixel, plus any pixels connected **4-directionally** to the starting pixel of the sem color as the starting pixel, push any pixels connected **4-directionally** to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels with `newColor`.
+
+Return the *modified image after performing the flood fill*.
+
 ## Strings
 
 ### 1. Reverse String 
