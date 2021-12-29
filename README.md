@@ -712,6 +712,12 @@ The solution set **must not** contain duplicate subset. Return the solution in *
 
 In the **Pascal's triangle**, each number is the sum of the two numbers directly above.
 
+### 3. Partition Labels
+
+You are given a string `s`. We want to partition the string into as many parts as possible so that each letter appears in at most one part.
+
+Return a list of integers representing the size of these parts.
+
 # [5 Most used Sorting Algorithms](https://favtutor.com/blogs/sorting-algorithms-java)
 ### 1. Merge Sort
 - **Time Complexity**: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
