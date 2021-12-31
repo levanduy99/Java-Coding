@@ -475,6 +475,13 @@ Letters are **case sensitive**, for example, `"Aa"` is not considered a palindro
 Given a `pattern` and a string `s`, find if `s` follows the same pattern.
 
 Here **follow** means a full match, such that there is a bijection between a letter in `pattern` and a **non-empty** word in `s`.
+
+### 29. Maximum Number of Ballons
+
+Given a string `text`, you want to use the character of `text` to form as many instances of the word **"balloon"** as possible.
+
+You can use each character in `text` **at most once**. Return the maximum number of instances that can be formed.
+
 ## Math
 ### 1. Fizz Buzz
 
