@@ -312,6 +312,10 @@ Find out the state of the asteroids after all collisions. If two asteroids meet,
 
 Given a binary array `nums`, return the maximum *length of a contiguous subarray with an equal number of `0` and `1`.
 
+### 47. Unique Number of Occurrences
+
+Given an array of integers `array`, return `true` if the number of occurrences of value in the array is **unique**. or `false` otherwise.
+
 ## Strings
 
 ### 1. Reverse String 
