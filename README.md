@@ -312,6 +312,12 @@ Find out the state of the asteroids after all collisions. If two asteroids meet,
 
 Given a binary array `nums`, return the maximum *length of a contiguous subarray with an equal number of `0` and `1`.
 
+### 47. Find Minimum is Rotated Sorted Array
+
+Suppose an array of length `n` sorted in ascending order is **rotated** between 1 and n times. Notice that **rotating** an array `[a[0], a[1], a[2], ..., a[n-1]]` 1 time results in the array `[a[n-1], a[0], a[1], a[2], ..., a[n-2]]`.
+
+Given the sorted rotated array `nums` of **unique** elements, return the minimum element of this array.
+
 ### 47. Unique Number of Occurrences
 
 Given an array of integers `array`, return `true` if the number of occurrences of value in the array is **unique**. or `false` otherwise.
