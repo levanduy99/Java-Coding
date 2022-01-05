@@ -318,6 +318,15 @@ Suppose an array of length `n` sorted in ascending order is **rotated** between 
 
 Given the sorted rotated array `nums` of **unique** elements, return the minimum element of this array.
 
+### 48. Minimum Absolute Difference
+
+Given an array of **distinct** integers `array`, find all pairs of elements with the minimum absolute difference of any two elements.
+
+Return a list of pairs in ascending order(with respect to pairs), each pair [a, b] follows
+- `a, b` are from `array`
+- `a < b`
+- `b - a` equals to the minimum absolute difference of any two elements in `array`
+
 ### 47. Unique Number of Occurrences
 
 Given an array of integers `array`, return `true` if the number of occurrences of value in the array is **unique**. or `false` otherwise.
