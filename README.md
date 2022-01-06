@@ -341,6 +341,12 @@ The reshaped matrix should be filled with all the elements of the original matri
 
 If the `reshape` operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
 
+### 49. Longest Continuous Increasing Subsequence
+
+Given an unsorted array of integers `nums`, *return the length of the longest **continuous increasing subsequence** (i.e. subarray)*. The subsequence must be **strictly** increasing.
+
+A continuous increasing subsequence is defined by two indices `l` and `r` `(l < r)` such that it is `[nums[l], nums[l + 1], ..., nums[r - 1], nums[r]]` and or each `l <= i < r`, `nums[i] < nums[i + 1]`.
+
 ## Strings
 
 ### 1. Reverse String 
