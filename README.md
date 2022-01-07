@@ -521,6 +521,12 @@ Given a string `text`, you want to use the character of `text` to form as many i
 
 You can use each character in `text` **at most once**. Return the maximum number of instances that can be formed.
 
+### 30. Is Subsequence
+
+Given two strings `s` and `t`, return `true` if `s` is a **subsequence** of `t`, or `false` otherwise.
+
+A **subsequence** of a string is a new string that is formed from the original string b deleting some (can be non) of the characters without disturbing the relative positions of the remaining characters.
+
 ## Math
 ### 1. Fizz Buzz
 
