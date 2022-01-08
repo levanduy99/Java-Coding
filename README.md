@@ -527,6 +527,14 @@ Given two strings `s` and `t`, return `true` if `s` is a **subsequence** of `t`,
 
 A **subsequence** of a string is a new string that is formed from the original string b deleting some (can be non) of the characters without disturbing the relative positions of the remaining characters.
 
+### 31. Longest Palindromic Substring
+
+Given a string `s`, return the longest palindromic substring in `s`.
+
+### 32. Repeated Substring Pattern
+
+Given a string `s`, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
+
 ## Math
 ### 1. Fizz Buzz
 
