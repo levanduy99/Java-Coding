@@ -347,6 +347,14 @@ Given an unsorted array of integers `nums`, *return the length of the longest **
 
 A continuous increasing subsequence is defined by two indices `l` and `r` `(l < r)` such that it is `[nums[l], nums[l + 1], ..., nums[r - 1], nums[r]]` and or each `l <= i < r`, `nums[i] < nums[i + 1]`.
 
+### 50. Monotonic Array
+
+An array is **monotonic** if it is either monotone increasing or monotone decreasing.
+
+An array `nums` is monotone increasing if for all `i <= j`, `nums[i] <= nums[j]`. An array `nums` is monotone decreasing is for all `i <= j`, `nums[i] >= nums[j]`.
+
+Given an integer array `nums`, return `true` if the given array is monotonic, or `false` otherwise.
+
 ## Strings
 
 ### 1. Reverse String 
