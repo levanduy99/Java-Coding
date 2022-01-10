@@ -682,6 +682,10 @@ As input string is valid if:
 
 Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
 
+### 3. Generate Parentheses
+
+Given `n` pairs of parentheses, write a function to *generate all combinations of well-formed parentheses*.
+
 ## Dynamic Programming
 
 ### 1. Climbing Stairs
