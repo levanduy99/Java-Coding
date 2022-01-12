@@ -549,6 +549,12 @@ Formally, a *parentheses string* is valid if and only if:
 - It can be written as `AB` (`A` concatenated with `B`), where `A` and `B` are valid strings, or
 - It can be written as `(A)`, where `A` is a valid string.
 
+### 33. Find All Anagrams in a String
+
+Given two strings `s` and `p`, return *an array of all the start indices of `p`'s anagrams in `s`. You may return the answer in **any order**.
+
+An **Anagram** is a words or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly one.
+
 ## Math
 ### 1. Fizz Buzz
 
