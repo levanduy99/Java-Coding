@@ -355,6 +355,10 @@ An array `nums` is monotone increasing if for all `i <= j`, `nums[i] <= nums[j]`
 
 Given an integer array `nums`, return `true` if the given array is monotonic, or `false` otherwise.
 
+### 51. Subarray Product Less Than K
+
+Given an array of integers `nums` and an integer `k`, return the number of *contiguous subarrays where the product of all the elements in the subarray is strictly less* than `k`. 
+
 ## Strings
 
 ### 1. Reverse String 
