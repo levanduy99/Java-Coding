@@ -364,7 +364,13 @@ Given an array of integers `nums` and an integer `k`, return the number of *cont
 Given an integer array `nums` where every element appears **three times** except for one, which appears exactly once. *Find the single element and return it*.
  
 You must implement a solution with a linear runtime complexity and use only constant extra space.
- 
+
+### 53. Battleships in a Board
+
+Given an `m x n` matrix `board` where each cell is a battleship `'X'` or empty `'.'`, return *the number of the **battleships** on `board`*.
+
+**Battleships** can only be placed horizontally and vertically on `board`. In other words, they can only be made of the shape `1 x k` (`1` row, `k` columns) or `k x 1` (`k` rows, `1` column), where `k` can be of any size. At least one horizontal or vertical cell separates between two battleships (i.e., there are no adjacent battleships).
+
 ## Strings
 
 ### 1. Reverse String 
