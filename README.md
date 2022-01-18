@@ -371,6 +371,12 @@ Given an `m x n` matrix `board` where each cell is a battleship `'X'` or empty `
 
 **Battleships** can only be placed horizontally and vertically on `board`. In other words, they can only be made of the shape `1 x k` (`1` row, `k` columns) or `k x 1` (`k` rows, `1` column), where `k` can be of any size. At least one horizontal or vertical cell separates between two battleships (i.e., there are no adjacent battleships).
 
+### 55. Kth Largest Element in an Array
+
+Given an integer array `nums` and an integer `k`, return the `k_th` largest element in the array.
+
+Note that it is the `k_th` largest element in the sorted order, not the `k_th` distinct element.
+
 ## Strings
 
 ### 1. Reverse String 
