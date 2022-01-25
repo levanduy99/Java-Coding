@@ -607,6 +607,12 @@ Given an array of strings `strs`, group **the anagrams** together. You can retur
 
 An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
+### 37. Reorganize String
+
+Given a string `s`, rearrange the characters of `s` so that any two adjacent characters are not the same.
+
+Return *any possible rearrangement of s or return "" if not possible*.
+
 ## Math
 ### 1. Fizz Buzz
 
