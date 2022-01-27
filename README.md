@@ -613,6 +613,11 @@ Given a string `s`, rearrange the characters of `s` so that any two adjacent cha
 
 Return *any possible rearrangement of s or return "" if not possible*.
 
+### 38. Defanging an IP Address
+
+Given a valid (IPv4) IP `address`, return a defanged version of that IP address.
+A *defanged* address replaces every period `"."` with `"[.]"`.
+
 ## Math
 ### 1. Fizz Buzz
 
