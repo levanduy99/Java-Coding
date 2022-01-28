@@ -618,6 +618,12 @@ Return *any possible rearrangement of s or return "" if not possible*.
 Given a valid (IPv4) IP `address`, return a defanged version of that IP address.
 A *defanged* address replaces every period `"."` with `"[.]"`.
 
+### 39. Add Strings
+
+Given two non-negative integers, `num1` and `num2` represented as string, return *the sum of num1 and num2 as a string*.
+
+You must solve the problem without using any built-in library for handling large integers (such as `BigInteger`). You must also not convert the inputs to integers directly.
+
 ## Math
 ### 1. Fizz Buzz
 
