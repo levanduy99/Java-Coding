@@ -782,6 +782,10 @@ Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, ret
 
 Given `n` pairs of parentheses, write a function to *generate all combinations of well-formed parentheses*.
 
+### 4. Binary Number with Alternating Bits
+
+Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
+
 ## Dynamic Programming
 
 ### 1. Climbing Stairs
