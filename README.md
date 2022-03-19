@@ -1,6 +1,6 @@
 # Purpose
 
-I want to improve your mindset programming skills. 
+I want to improve my mindset programming skills. 
 
 # Java-Coding
 [LeetCode](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
