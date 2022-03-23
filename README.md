@@ -399,6 +399,11 @@ We are playing a game with the stones. On each turn, we choose the **heaviest tw
 
 At the end of the game, there is at most one stone left.
 Return the *smallest possible weight of the left stone*. If there are no stones left, return 0.
+
+### 59. Partition Equal Subset Sum
+
+Given a **non-empty** array `nums` containing **only positive integers**, find if the array can be partitioned into subsets such that the sum of elements in both subsets is equal.
+
 ## Strings
 
 ### 1. Reverse String 
