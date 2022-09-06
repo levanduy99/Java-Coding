@@ -404,6 +404,10 @@ Return the *smallest possible weight of the left stone*. If there are no stones 
 
 Given a **non-empty** array `nums` containing **only positive integers**, find if the array can be partitioned into subsets such that the sum of elements in both subsets is equal.
 
+### 60. Find the largest three distinct elements in an array
+
+Given an array with all distinct elements, find the largest three elements. Expected time complexity is O(n) and extra space is O(1).
+
 ## Strings
 
 ### 1. Reverse String 
