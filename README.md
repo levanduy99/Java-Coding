@@ -408,6 +408,8 @@ Given a **non-empty** array `nums` containing **only positive integers**, find i
 
 Given an array with all distinct elements, find the largest three elements. Expected time complexity is O(n) and extra space is O(1).
 
+### 61. Intersection of two lists
+
 ## Strings
 
 ### 1. Reverse String 
